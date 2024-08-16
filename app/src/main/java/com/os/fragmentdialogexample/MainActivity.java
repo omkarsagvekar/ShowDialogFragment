@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 FragmentManager fm = getSupportFragmentManager();
                 DialogFragment dialog = new DialogFragment();
-                dialog.show(fm, "Dialog");
+                dialog.show(fm, "DialogFragment");
                 dialog.setCancelable(false);
             }
         });
